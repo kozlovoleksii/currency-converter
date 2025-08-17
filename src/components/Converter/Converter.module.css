@@ -1,0 +1,84 @@
+.wrapper {
+  display: grid;
+  gap: 12px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 40px 1fr;
+  gap: 12px;
+}
+
+.rateBox {
+  padding: 10px 12px;
+  background: #f7f7f9;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.swapBtn {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease,
+    background-color 0.15s ease;
+}
+.swapBtn:hover {
+  background-color: #f9fafb;
+  border-color: #d1d5db;
+}
+.swapBtn:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.smallNote {
+ 
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.smallNoteText {
+   color: #3b82f6;
+}
+
+.inputError {
+  --err: #e5484d;
+  border-color: var(--err);
+  background-color: #fff5f5;
+}
+
+.inputError:focus {
+  border-color: var(--err);
+  outline-color: var(--err);
+  box-shadow: 0 0 0 3px rgba(229, 72, 77, 0.15);
+}
+
+
+.button {
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease,
+    box-shadow 0.2s ease;
+}
+.button:hover:not(:disabled) {
+  background-color: #2563eb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.button:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
