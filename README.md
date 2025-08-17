@@ -21,7 +21,7 @@ A simple and user-friendly currency converter with live exchange rates from the 
 
 ## 📸 Preview
 
-<img src="src/assets/images/preview.jpg" alt="Currency Converter Preview"" />
+<img src="src/assets/images/preview.jpg" alt="Currency Converter Preview" />
 
 ## 🚀 Getting Started
 Clone the repository and run it locally:
